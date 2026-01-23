@@ -12,6 +12,6 @@ btn.addEventListener("click", function () {
     resultado.textContent = "🎉 Parabéns! Você acertou!";
     numeroSecreto = Math.floor(Math.random() * 10) + 1;
   } else {
-    resultado.textContent = "❌ Errou! Tente novamente.";
+    resultado.textContent = "Errou! Tente novamente.";
   }
 });

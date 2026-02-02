@@ -1,5 +1,5 @@
 
-      let randomNumber = Math.floor(Math.random()) + 1;
+      let randomNumber = Math.floor(Math.random() * 100) + 1;
 
       const guesses = document.querySelector(".guesses");
       const lastResult = document.querySelector(".lastResult");
@@ -66,5 +66,5 @@
 
         lastResult.style.backgroundColor = "white";
 
-        randomNumber = Math.floor(Math.random()) + 1;
+        randomNumber = Math.floor(Math.random() * 100) + 1;
       }

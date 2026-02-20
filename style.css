@@ -2,10 +2,20 @@ html {
         font-family: sans-serif;
       }
       body {
+        background-color: rgba(160, 52, 52, 0.253);
         width: 50%;
         max-width: 800px;
         min-width: 480px;
         margin: 0 auto;
+      }
+      header{
+        text-align: center;
+      }
+
+      main{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
       }
       .lastResult {
         color: white;
